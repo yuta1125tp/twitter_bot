@@ -99,3 +99,21 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# ====================
+# == my ignore rule ==
+# ====================
+# python
+*.pyc
+*.pkl
+*.npy
+*.npz
+
+# vscode
+.vscode
+
+# for this repository
+secrets/*.ini
+database/*/*/*.json
+
+
