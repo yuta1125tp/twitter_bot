@@ -10,21 +10,12 @@ import json
 from logging import getLogger
 
 from make_session import make_session
+from check_response import check_response
+
 from utils.my_logging import my_get_logger
 from utils.time_stamp import get_datetime_stamp
 
 
-def check_response(req, logger=None):
-    """APIからの反応をチェックする"""
-    if req.status_code == 200:
-        if logger is not None:
-            logger.info('OK ({})'.format(req.status_code))
-        return True
-    else:
-        req_j = json.loads(req.text)
-        if logger is not None:
-            logger.info('error ({}) : {}'.format(req.status_code, req_j))
-        return False
 def tweet(session, text):
     """tweet a text"""
 
