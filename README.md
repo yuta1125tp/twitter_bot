@@ -19,9 +19,11 @@ source code for twitter bot
 
 
 # dependency
-MeCab([origin](http://taku910.github.io/mecab/), [Windows binary](https://qiita.com/yukinoi/items/990b6933d9f21ba0fb43), [Windows dict](http://hired.hateblo.jp/entry/mecab-ipadic-neologd-windows))  
-natural-language-preprocessings([github](https://github.com/Hironsan/natural-language-preprocessings))
+this repository mainly dependent to following softwares.
+- MeCab([origin](http://taku910.github.io/mecab/), [Windows binary](https://qiita.com/yukinoi/items/990b6933d9f21ba0fb43), [Windows dict](http://hired.hateblo.jp/entry/mecab-ipadic-neologd-windows))  
+- natural-language-preprocessings([github](https://github.com/Hironsan/natural-language-preprocessings))  
 
+more details are discribed in requirements.txt
 
 # how to install mecab
 ## download pre-build MeCab for Windows
