@@ -9,6 +9,7 @@ source code for twitter bot
 
 - [twitter_bot](#twitter_bot)
 - [TOC](#toc)
+- [dependency](#dependency)
 - [how to install mecab](#how-to-install-mecab)
     - [download pre-build MeCab for Windows](#download-pre-build-mecab-for-windows)
     - [install python binding via pip](#install-python-binding-via-pip)
@@ -16,6 +17,10 @@ source code for twitter bot
 
 <!-- /TOC -->
 
+
+# dependency
+MeCab([origin](http://taku910.github.io/mecab/), [Windows binary](https://qiita.com/yukinoi/items/990b6933d9f21ba0fb43), [Windows dict](http://hired.hateblo.jp/entry/mecab-ipadic-neologd-windows))  
+natural-language-preprocessings([github](https://github.com/Hironsan/natural-language-preprocessings))
 
 
 # how to install mecab
