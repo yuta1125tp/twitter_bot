@@ -114,6 +114,7 @@ ENV/
 
 # for this repository
 secrets/*.ini
-database/*/*/*.json
+database/*/*
+database/*/*/*
 *.log
 .vscode
